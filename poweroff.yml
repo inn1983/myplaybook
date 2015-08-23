@@ -1,0 +1,6 @@
+- hosts: firstrun
+  tasks:
+  - name: reboot!
+    command: /sbin/poweroff
+    sudo: yes
+

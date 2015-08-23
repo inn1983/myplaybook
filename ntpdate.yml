@@ -1,0 +1,6 @@
+- hosts: firstrun
+  tasks:
+  - name: ntpdate!
+    command: /usr/sbin/ntpdate ntp.nict.jp
+    sudo: yes
+
